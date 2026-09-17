@@ -65,3 +65,7 @@ fieldset {
     border: none;
     padding: 0;
 }
+img {
+    min-width: 275px;
+    height: 100%;
+}
