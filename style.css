@@ -48,10 +48,17 @@ h1, h2, h3, h4, h5, h6 {
 form {
     background-color: white;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-wrap: wrap;
 }
-.right-header, form {
+.right-header, form, .submit {
     padding: 10px 50px;
 }
 p {
     padding: 10px 0px;
+}
+fieldset {
+    border: none;
+    padding: 0;
 }
