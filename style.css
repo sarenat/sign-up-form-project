@@ -52,6 +52,9 @@ form {
     display: flex;
     flex-wrap: wrap;
 }
+.form-row {
+    display: flex;
+}
 .right-header, form, .submit {
     padding: 10px 50px;
 }
